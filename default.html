@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
     <style>
         body {
             background-color: #1d1d1d;
@@ -31,6 +34,8 @@
         }
     </style>
     <script>
+//https://codepen.io/anon/pen/XVPqmV
+
         //var container = document.querySelector('.container');
         var jetBubbles = document.getElementsByClassName('jetBubble');
         var rocketManSVG = document.querySelector('.rocketManSVG');
@@ -40,14 +45,14 @@
         var astronaut = document.querySelector('.astronaut');
         var starContainer = document.querySelector('.starContainer');
         var badgeLink = document.querySelector('#badgeLink');
-        /* 
+        
         TweenMax.set(container, {
           position:'absolute',
           top:'50%',
           left:'50%',
           xPercent:-50,
           yPercent:-50
-        }) */
+        })
 
         TweenMax.to(astronaut, 0.05, {
             y: '+=4',
